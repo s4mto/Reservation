@@ -1,0 +1,4 @@
+ReservationId,BoatTYpe,StartDate,EndDate,StartTime,EndTime,NumberofPerson,InfoofPeople
+SAM20230324161908,12-12-2020,13-12-2020,12:12,13:12,2,Samet Akyildiz, Max Space
+SAM20230324162246,07-11-2022,08-11-2022,12:00,13:00,2,Samet Akyildiz, Mehmet Demir
+SAM26032023135637,Supboard,1212-12-12,2122-12-12,12:21,21:12,1,Samet A
