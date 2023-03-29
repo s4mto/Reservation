@@ -30,16 +30,18 @@ public class LoginMenu {
                 case '1':
                     Account loggedInPerson = LoginView.view(accounts);
                     if (loggedInPerson != null)
-                       MainMenu.view(loggedInPerson);
+                        MainMenu.view(loggedInPerson);
                     break;
                 case '2':
                     if (ForgetPassword.view())
                         // @ToDo next menu
-                    break;
+                        break;
                 case '3':
                     if (SignUpView.view())
-                        // @ToDo next menu
-                    break;
+                    // @ToDo next menu
+                    {
+                        break;
+                    }
                 case '9':
                     break;
 

@@ -22,6 +22,7 @@ public class ChangeReservationView {
         String csvSplitBy = ",";
         System.out.print("Please type your reservation number!: ");
         String reservationId = scanner.nextLine();
+        reservation.setReservationId(reservationId);
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile));
              FileWriter fw = new FileWriter(csvFile + ".tmp", true)) {
@@ -33,6 +34,7 @@ public class ChangeReservationView {
                     System.out.println("Supboard(1 Person) [ Supboard ] - Kajak(2 Persons) - [ Kajak ] - Rowing(4 Persons) [ Rowing ]- Electrical (4 Persons) [ Electrical ]");
                     System.out.print("Boat Type : ");
                     String boatType = scanner.nextLine();
+                    reservation.setBoatType(boatType);
                     System.out.print("Start Date (DD-MM-YYYY): ");
                     String startDate = scanner.nextLine();
                     LocalDate startDate1 = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd-MM-yyyy"));

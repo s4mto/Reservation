@@ -11,17 +11,18 @@ public class Reservation {
     private String infoOfPeople;
     private String cost;
 
+    public Reservation() {
+        this.reservationId = reservationId;
+        this.boatType = boatType;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.numOfPeople = numOfPeople;
+        this.infoOfPeople = infoOfPeople;
+        this.cost = cost;
+    }
 
-//    public MakeReservation(String reservationId, String startDate, String endDate,
-//                           String startTime, String endTime,int numOfPeople, String infoOfPeople) {
-//        this.name = name;
-//        this.startDate = startDate;
-//        this.endDate = endDate;
-//        this.startTime = startTime;
-//        this.endTime = endTime;
-//        this.numOfPeople = numOfPeople;
-//        this.infoOfPeople = infoOfPeople;
-//    }
 
     // getters and setters
 

@@ -3,9 +3,10 @@ package org.example.model;
 import java.util.ArrayList;
 
 public class Account {
-        private int UserId;
-        private String Password;
-        private String Role;
+        public int UserId;
+        public String userName;
+        public String Password;
+        public String Role;
 
         public int getUserId() {
                 return UserId;
@@ -22,4 +23,6 @@ public class Account {
         public void setRole(String role) {
                 Role = role;
         }
+
+
 }

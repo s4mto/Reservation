@@ -24,6 +24,7 @@ public class CreateReservationView {
         System.out.println("Supboard(1 Person) [ Supboard ] - Kajak(2 Persons) - [ Kajak ] - Rowing(4 Persons) [ Rowing ]- Electrical (4 Persons) [ Electrical ]");
         System.out.print("Boat Type : ");
         String boatType = scanner.nextLine();
+        reservation.setBoatType(boatType);
         System.out.print("Start Date (DD-MM-YYYY): ");
         String startDate = scanner.nextLine();
         LocalDate startDate1 = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd-MM-yyyy"));

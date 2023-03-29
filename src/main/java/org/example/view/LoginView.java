@@ -9,14 +9,13 @@ public class LoginView {
     public static Account view(Accounts accounts) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("UserName:");
-        String UserName = scanner.nextLine();
+        String userName = scanner.nextLine();
         System.out.print("Password:");
-        String PassWord = scanner.nextLine();
+        String passWord = scanner.nextLine();
 
-
-        // @ToDO check if userid and password are correct
-        // loop over all accounts and find matching account
-        // return that account
+        for (Account account: accounts.list)
+            if (account.userName.equals(userName) && account.Password.equals(passWord))
+                return account;
 
         return null;
     }
