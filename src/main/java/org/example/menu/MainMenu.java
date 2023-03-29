@@ -1,5 +1,6 @@
 package org.example.menu;
 
+import com.opencsv.exceptions.CsvException;
 import org.example.model.Account;
 
 import java.io.IOException;
@@ -7,7 +8,7 @@ import java.text.ParseException;
 import java.util.Scanner;
 
 public class MainMenu {
-    public static void view(Account account) throws IOException, ParseException {
+    public static void view(Account account) throws IOException, ParseException, CsvException {
         boolean keepShowingMenu = true;
         while (keepShowingMenu) {
             System.out.println("Menu");
@@ -37,7 +38,7 @@ public class MainMenu {
                     ReservationController.selection();
                     break;
                 case 5:
-                    control.DiscountMenu.view();
+                    DiscountMenu.view();
                     break;
                 case 9:
                     // exit the loop and terminate the program

@@ -1,11 +1,11 @@
-package control;
+package org.example.menu;
 
 import com.opencsv.exceptions.CsvException;
 import com.opencsv.exceptions.CsvValidationException;
 import model.Discount;
-import view.DiscountCreate;
-import view.DiscountDelete;
-import view.DiscountUpdate;
+import org.example.view.DiscountCreate;
+import org.example.view.DiscountDelete;
+import org.example.view.DiscountUpdate;
 
 import java.io.IOException;
 import java.text.ParseException;

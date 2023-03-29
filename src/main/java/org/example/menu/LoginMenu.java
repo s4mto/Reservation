@@ -1,15 +1,18 @@
 package org.example.menu;
 
+import com.opencsv.exceptions.CsvException;
 import org.example.model.Account;
 import org.example.model.Accounts;
 import org.example.view.ForgetPassword;
 import org.example.view.LoginView;
 import org.example.view.SignUpView;
 
+import java.io.IOException;
+import java.text.ParseException;
 import java.util.Scanner;
 
 public class LoginMenu {
-    public static void view(Accounts accounts) {
+    public static void view(Accounts accounts) throws IOException, ParseException, CsvException {
         boolean keepShowingMenu = true;
         while (keepShowingMenu){
             System.out.println("Welcome to Molven Lake Resort China");
