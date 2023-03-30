@@ -20,7 +20,7 @@ public static boolean remove() throws IOException, CsvException{
     System.out.println("____________________________________");
     System.out.println("Delete Discount");
     System.out.println("____________________________________");
-    String csvFile = "C:\\Users\\sathabet\\IdeaProjects\\Discount management\\BootReservation\\src\\main\\resources\\discountCsv.csv";
+    String csvFile = "src/main/java/org/example/model/discountCsv.csv";
 
 
     String line;

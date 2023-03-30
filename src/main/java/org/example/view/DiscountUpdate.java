@@ -21,7 +21,7 @@ public class DiscountUpdate {
         System.out.println("____________________________________");
         System.out.println("Change Discount");
         System.out.println("____________________________________");
-        String csvFile = "C:\\Users\\sathabet\\IdeaProjects\\Discount management\\BootReservation\\src\\main\\resources\\discountCsv.csv";
+        String csvFile = "src/main/java/org/example/model/discountCsv.csv";
         String line;
         String csvSplitBy = ",";
 

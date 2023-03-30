@@ -51,7 +51,7 @@ public class DiscountCreate {
 
 
 
-        String filename = "C:\\Users\\sathabet\\IdeaProjects\\Discount management\\BootReservation\\src\\main\\resources\\discountCsv.csv";
+        String filename = "src/main/java/org/example/model/discountCsv.csv";
         try {
             FileWriter writer = new FileWriter(filename, true);
             writer.append(String.valueOf(discount.getDiscountId()))
