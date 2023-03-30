@@ -17,12 +17,12 @@ import java.util.Scanner;
             boolean loop = true;
             while(loop) {
                 System.out.println();
-                System.out.println("Main menu");
+                System.out.println("boat menu");
                 System.out.println("=========");
-                System.out.println(ROLE + ". Roles");
+
                 System.out.println(BOATS + ". Boats");
                 System.out.println(BOATTYPES + ". Boat Types");
-                System.out.println(RESERVATION + ". Roles");
+
                 System.out.println(EXIT + ". Exit");
                 System.out.println();
                 System.out.print("Please make a choice: ");

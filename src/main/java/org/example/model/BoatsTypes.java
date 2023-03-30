@@ -25,12 +25,14 @@ public  class BoatsTypes {
                 boatTypes.setChargingtime(Integer.parseInt(nextLine[2]));
                 boatTypes.setPrice(Integer.parseInt(nextLine[3]));
                 list.add(String.valueOf(boatTypes));
-                System.out.println(list);
             }
-            System.out.println(list);
+            print();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
+    public static void print(){
+        for (String boatType : list)
+            System.out.println(boatType);
+    }
 }

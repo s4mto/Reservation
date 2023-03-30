@@ -40,12 +40,13 @@ public class BoatType {
 
     @Override
     public String toString() {
-        return "BoatType{" +
+        return "BoatType {" +
                 "typeId=" + typeId +
                 ", Capacity=" + Capacity +
                 ", Chargingtime=" + Chargingtime +
                 ", Price=" + Price +
                 '}';
+
     }
 
     public void setPrice(int price) {

@@ -2,6 +2,7 @@ package org.example.menu;
 
 import com.opencsv.exceptions.CsvException;
 import org.example.model.Account;
+import org.example.model.Model;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -35,7 +36,8 @@ public class MainMenu {
                     BoatTypemenu.view();
                     break;
                 case 4:
-                    ReservationController.selection();
+                    Model model = new Model();
+                    UserController.start(model.users);
                     break;
                 case 5:
                     DiscountMenu.view();

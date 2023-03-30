@@ -28,12 +28,17 @@ public class Boats {
                 boat.setBoatType(Integer.parseInt(nextLine[2]));
                 boats.list.add(boat);
             }
-            System.out.println(list);
+            print();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         return boats;
+    }
+
+    public static void print(){
+        for (Boat boat : list)
+            System.out.println(boat);
     }
 }
 

@@ -42,10 +42,7 @@ public class Boat {
 
     @Override
     public String toString() {
-        return "Boat{" +
-                "boatId=" + boatId +
-                ", boatName='" + boatName + '\'' +
-                ", boatType=" + boatType +
-                '}';
+        return "BoatList {" +
+                "typeId=" + boatId + ",boatName=" +  boatName + ",boatType=" +   boatType;
     }
 }

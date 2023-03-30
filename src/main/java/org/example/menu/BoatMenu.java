@@ -29,7 +29,7 @@ public class BoatMenu {
                 case 1:
 
                       Boats.read();
-
+                        break;
                 case 2:
                     BoatCreate.view();
                     break;
