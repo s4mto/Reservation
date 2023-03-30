@@ -22,8 +22,7 @@ public class LoginMenu {
             System.out.println("3. Sign Up :");
             System.out.println("9. Exit :");
             System.out.println();
-            System.out.println(" Please Make a Choice ");
-
+            System.out.println("Please Make a Choice: ");
 
             Scanner scanner = new Scanner(System.in);
             String s = scanner.nextLine();

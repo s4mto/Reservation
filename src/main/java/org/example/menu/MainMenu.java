@@ -29,10 +29,10 @@ public class MainMenu {
                     ReservationController.selection();
                     break;
                 case 2:
-                    ReservationController.selection();
+                    BoatMenu.view();
                     break;
                 case 3:
-                    ReservationController.selection();
+                    BoatTypemenu.view();
                     break;
                 case 4:
                     ReservationController.selection();

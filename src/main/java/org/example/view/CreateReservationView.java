@@ -17,7 +17,7 @@ public class CreateReservationView {
         System.out.println("____________________________________");
         System.out.println("Maka a Reservation");
         System.out.println("____________________________________");
-        String username = "Samet"; // replace with actual username
+        String username = "test"; // replace with actual username
         LocalDateTime now = LocalDateTime.now();
         String timestamp = now.format(DateTimeFormatter.ofPattern("ddMMyyyyHHmmss"));
         String reservationId = username.substring(0, Math.min(username.length(), 3)).toUpperCase() + timestamp;
